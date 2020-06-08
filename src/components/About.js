@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 class About extends Component {
 
     render() {
-        return <span>Web developer</span>;
+        return <span>{this.props.title}</span>;
     }
 }
 
