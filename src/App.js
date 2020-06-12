@@ -10,13 +10,22 @@ import './App.css';
 // import HookMouse from './components/use-effect/HookMouse';
 // import MouseContainer from './components/use-effect/MouseContainer';
 // import IntervalHookCounter from './components/use-effect/IntervalHookCounter';
-import DataFetch from './components/use-effect/DataFetch';
+// import DataFetch from './components/use-effect/DataFetch';
+import CompoentC from './components/context/CompoentC';
+
+export const UserContext = React.createContext();
+export const ChanelContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-   
-      <DataFetch/>
+      <UserContext.Provider value={'fardin'}>
+
+        <ChanelContext.Provider value={'encoder'}>
+          <CompoentC/>
+        </ChanelContext.Provider>
+
+      </UserContext.Provider>
     </div>
   );
 }
