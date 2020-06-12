@@ -11,21 +11,26 @@ import './App.css';
 // import MouseContainer from './components/use-effect/MouseContainer';
 // import IntervalHookCounter from './components/use-effect/IntervalHookCounter';
 // import DataFetch from './components/use-effect/DataFetch';
-import CompoentC from './components/context/CompoentC';
+// import CompoentC from './components/context/CompoentC';
+import Counter from './components/reducer/Counter';
 
-export const UserContext = React.createContext();
-export const ChanelContext = React.createContext();
+// export const UserContext = React.createContext();
+// export const ChanelContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value={'fardin'}>
+      {/* <UserContext.Provider value={'fardin'}>
 
         <ChanelContext.Provider value={'encoder'}>
           <CompoentC/>
         </ChanelContext.Provider>
 
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+
+      <Counter/>
+
+
     </div>
   );
 }
