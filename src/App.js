@@ -6,17 +6,16 @@ import './App.css';
 // import HookCounter from './components/HookCounter';
 // import HookCounterTow from './components/HookCounterTow';
 // import HookObject from './components/HookObject';
-import HookArray from './components/HookArray';
+// import Counter from './components/use-effect/Counter';
+// import HookMouse from './components/use-effect/HookMouse';
+// import MouseContainer from './components/use-effect/MouseContainer';
+import IntervalHookCounter from './components/use-effect/IntervalHookCounter';
 
 function App() {
   return (
     <div className="App">
-      {/* <Name/>
-      <About title="Web developer"/>
-      <Hello name="Fardin">
-        <span>Software Developer</span>
-      </Hello> */}
-      <HookArray/>
+   
+      <IntervalHookCounter/>
     </div>
   );
 }
