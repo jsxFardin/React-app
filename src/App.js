@@ -9,13 +9,14 @@ import './App.css';
 // import Counter from './components/use-effect/Counter';
 // import HookMouse from './components/use-effect/HookMouse';
 // import MouseContainer from './components/use-effect/MouseContainer';
-import IntervalHookCounter from './components/use-effect/IntervalHookCounter';
+// import IntervalHookCounter from './components/use-effect/IntervalHookCounter';
+import DataFetch from './components/use-effect/DataFetch';
 
 function App() {
   return (
     <div className="App">
    
-      <IntervalHookCounter/>
+      <DataFetch/>
     </div>
   );
 }
