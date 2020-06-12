@@ -5,7 +5,8 @@ import './App.css';
 // import Hello from './components/Hello';
 // import HookCounter from './components/HookCounter';
 // import HookCounterTow from './components/HookCounterTow';
-import HookObject from './components/HookObject';
+// import HookObject from './components/HookObject';
+import HookArray from './components/HookArray';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Hello name="Fardin">
         <span>Software Developer</span>
       </Hello> */}
-      <HookObject/>
+      <HookArray/>
     </div>
   );
 }
